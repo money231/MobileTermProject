@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MaiActivity" >
+    
+    
+    <Button 
+        android:text="시작"
+        android:id="@+id/start"
+        android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   	/>
+
+    
+	<Button 
+        android:text="호객모드 설정"
+        android:id="@+id/hogetmode"
+        android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:layout_below="@+id/start"
+   	/>
+	<Button 
+        android:text="관심목록 리스트"
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:layout_below="@+id/hogetmode"
+   	/>
+
+    
+
+</RelativeLayout>
